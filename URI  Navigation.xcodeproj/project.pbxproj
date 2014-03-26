@@ -22,6 +22,7 @@
 		95A550E318BFF6150010B836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A550C218BFF6150010B836 /* UIKit.framework */; };
 		95A550EB18BFF6150010B836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A550E918BFF6150010B836 /* InfoPlist.strings */; };
 		95A550ED18BFF6150010B836 /* URI__NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A550EC18BFF6150010B836 /* URI__NavigationTests.m */; };
+		95A550F718BFF6310010B836 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A550F618BFF6310010B836 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		95A550E818BFF6150010B836 /* URI  NavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "URI  NavigationTests-Info.plist"; sourceTree = "<group>"; };
 		95A550EA18BFF6150010B836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		95A550EC18BFF6150010B836 /* URI__NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URI__NavigationTests.m; sourceTree = "<group>"; };
+		95A550F618BFF6310010B836 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A550F718BFF6310010B836 /* MapKit.framework in Frameworks */,
 				95A550C118BFF6150010B836 /* CoreGraphics.framework in Frameworks */,
 				95A550C318BFF6150010B836 /* UIKit.framework in Frameworks */,
 				95A550BF18BFF6150010B836 /* Foundation.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		95A550BD18BFF6150010B836 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				95A550F618BFF6310010B836 /* MapKit.framework */,
 				95A550BE18BFF6150010B836 /* Foundation.framework */,
 				95A550C018BFF6150010B836 /* CoreGraphics.framework */,
 				95A550C218BFF6150010B836 /* UIKit.framework */,
